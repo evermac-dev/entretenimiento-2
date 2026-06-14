@@ -1,0 +1,62 @@
+ul li{
+  font-size:2rem;
+  letter-spacing:10px;
+  color:#484848;
+  list-style:none;
+  animation:lighting 1.4s linear infinite;
+}
+@keyframes lighting
+{
+  0%
+  {
+    color:#484848;
+    text-shadow:none;
+  }
+  90%
+  {
+    color:#484848;
+    text-shadow:none;
+  }
+  100%
+  {
+    color:#484848;
+    text-shadow:0 0 7px #fff900,0 0 50px yellow;
+  }
+}
+{
+  margin:0;
+  padding;0;
+  box-sizing:border-box;
+}
+
+body
+{
+ display:flex;
+ aling-items:center;
+ justify-content:center;
+ height:100vh;
+ font-family:'lato',sans-serif;
+ background-color:#000000
+}
+ul
+{
+  marging:0;
+  padding:0;
+  display:flex;
+}
+ul li:nth-child(1)
+{
+  animation-delay:0;
+}
+ul li:nth-child(2)
+{
+  animation-delay:0.1s;
+}
+ul li:nth-child(3)
+{
+  animation-delay:0.2s;
+}
+ul li:nth-child(4)
+{
+  animation-delay:0.3s;
+}
